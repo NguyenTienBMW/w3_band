@@ -1,0 +1,77 @@
+/* PC */
+@media screen and (min-width: 64em){
+   
+}
+/* Tablet & Mobile */
+@media screen and (max-width: 63.9375em){ 
+    #content .ticket-buy {
+        padding: 14px 13px;
+    }
+    .form-control { 
+        padding: 15px;
+    }
+    #footer .icon-middle {
+        font-size: 48px;
+    }
+    .contact-info {
+    line-height: 2;
+    margin-bottom: 16px;
+    }
+}
+/* Tablet */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .pc,
+    .mobile {
+      display: none;
+    }
+}
+/* Mobile */
+@media screen and (max-width: 46.1875em){
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    .s-full-width {
+        width: 100%;
+    }
+    .s-col-full {
+        width: 100%;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    .icon-menu {
+        float: right;
+    }
+    #header .search-btn  {
+        display: none;
+    }
+    .tickets-list div div {
+        width: 100%;
+    }
+    #nav li a {
+        display: block;
+    }
+    #header {
+        overflow: hidden;
+    }    
+    #header #mobile-menu {
+        display: block;
+    }
+    #nav .subnav {
+        position:initial;
+        background-color: #333;
+    }
+    .subnav li a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #nav li:first-child {
+        display: inline-block;
+    }
+    #content .name-img {
+        width:60%;
+    }
+}
